@@ -14,38 +14,38 @@
     />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="is-preload">
     <!-- Header -->
     <header id="header">
       <a class="logo" href="index.html">Industrious</a>
       <nav>
-        <a href="#menu">Menu</a>
+        <a class="menu" href="#menu">Menu</a>
       </nav>
     </header>
 
-    <!-- Nav -->
-    <nav id="menu">
-      <ul class="links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="elements.html">Elements</a></li>
-        <li><a href="generic.html">Generic</a></li>
-      </ul>
-    </nav>
-
     <!-- Banner -->
-    <section id="banner">
-      <div class="inner">
-        <h1>Industrious</h1>
-        <p>
-          A responsive business oriented template with a video background<br />
-          designed by <a href="https://templated.co/">TEMPLATED</a> and released
-          under the Creative Commons License.
-        </p>
-      </div>
-      <video autoplay loop muted playsinline src="images/banner.mp4"></video>
-    </section>
+    <div class="banner-father">
+      <section class="banner">
+        <div class="dinner">
+          <h1>Industrious</h1>
+          <p>
+            A responsive business oriented template with a video background<br />
+            designed by <a href="https://templated.co/">TEMPLATED</a> and
+            released under the Creative Commons License.
+          </p>
+        </div>
+        <video
+          id="hero-video"
+          autoplay
+          loop
+          muted
+          playsinline
+          src="images/banner.mp4"
+        ></video>
+      </section>
+    </div>
 
     <!-- Highlights -->
     <section class="wrapper">
