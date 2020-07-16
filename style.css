@@ -136,12 +136,7 @@ textarea {
   background-color: aquamarine;
 }
 .testimonials {
-  display: flex;
-  bottom: 10px;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(157, 171, 247);
-  flex-wrap: wrap;
+  width: 100%;
 }
 .author {
   display: flex;
@@ -153,11 +148,60 @@ textarea {
 }
 .photo {
   display: flex;
-  background-color: burlywood;
+  background-color: darkseagreen;
   height: 600px;
   width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .color-red {
   color: red;
   font-weight: 700;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 10px;
+  width: 450px;
+  height: 450px;
+  background-color: cornsilk;
+}
+#footer {
+  display: flex;
+  flex-direction: column;
+  background-color: chartreuse;
+  text-align: center;
+  width: 100%;
+}
+.round {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.PH {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red-line {
+  border-left: 20px solid rgb(221, 158, 107);
+  padding: 15px;
+}
+.footer-text {
+  color: white;
+  margin: 15px;
+  width: 550px;
+}
+.footer-text-1 {
+  color: white;
+  margin: 15px;
+  width: 350px;
+}
+.footer-father {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
 }
