@@ -1,0 +1,29 @@
+body {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  line-height: 1.65;
+}
+h1 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 0 0 1.5rem 0;
+  font-size: 5rem;
+}
+h2 {
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 0 0 1.5rem 0;
+  font-size: 2.5rem;
+}
+.p-style {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.color-white {
+  color: aliceblue;
+  text-decoration: none;
+}
+.color-black {
+  color: black;
+}

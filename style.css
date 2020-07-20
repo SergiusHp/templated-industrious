@@ -48,25 +48,11 @@
 }
 .title-banner {
   position: absolute;
-  top: calc(50% - 80px);
-  left: calc(50% - 280px);
+  top: calc(50% - 107px);
+  left: calc(50% - 394px);
   text-align: center;
   color: aliceblue;
   z-index: 2;
-}
-#hero-video {
-  width: 100%;
-}
-
-body,
-input,
-select,
-textarea {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.65;
- 
 }
 .wrapper {
   display: flex;
@@ -119,7 +105,7 @@ textarea {
   max-width: 310px;
   height: 250px;
   margin: 10px;
-   background-color: rgb(250, 254, 255);
+  background-color: rgb(250, 254, 255);
   padding: 15px;
   text-align: center;
   box-shadow: 1px 2px 3px 1px grey;
@@ -133,8 +119,8 @@ textarea {
 }
 .special {
   text-align: center;
-  color: grey;;
- 
+  color: grey;
+  margin-top: 30px;
 }
 .curabitur {
   display: flex;
@@ -164,7 +150,6 @@ textarea {
   align-items: center;
   color: rgb(231, 231, 231);
   font-size: 2rem;
-  
 }
 .author {
   display: flex;
@@ -242,7 +227,6 @@ textarea {
   width: 100%;
 }
 .parallax {
-
   position: relative;
 }
 .parallax::after {
@@ -268,27 +252,49 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.cura-2{
+.cura-2 {
   position: relative;
 }
 .cura-2::after {
   position: absolute;
   top: 0;
   left: 0;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(images/build.jpg);
+  background-image: linear-gradient(
+      rgba(206, 27, 40, 0.25),
+      rgba(206, 27, 40, 0.25)
+    ),
+    url(images/build.jpg);
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
 }
-.color-white {
-color: aliceblue;
-text-decoration: none;
+#hero-video {
+  width: 100%;
 }
-.color-black {
-  color: black
+@media (max-width: 720px) {
+ 
+  .conteiner-1 {
+    flex-direction: column;
+    width: 80%;
+  }
+  .conteiner-2 {
+    flex-direction: column;
+    width: 80%;
+  }
+  .content {
+    max-width: 100%;
+  }
+  .highlights {
+    height: 100%;
+  }
 }
+@media (max-width: 1100px) {
+  #hero-video {
+    width: auto;
+    height: 100%;
+  }
