@@ -1,0 +1,48 @@
+@media (max-width: 720px) {
+  .conteiner-1 {
+    flex-direction: column;
+    width: 80%;
+  }
+  .conteiner-2 {
+    flex-direction: column;
+    width: 80%;
+  }
+  .content {
+    max-width: 100%;
+  }
+  .highlights {
+    height: 100%;
+  }
+  .title-banner {
+    position: initial;
+    text-align: center;
+    color: aliceblue;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 133px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .photo {
+    flex-direction: column;
+    height: 100%;
+  }
+  .special {
+    height: 100%;
+  }
+  .faucibus {
+    height: 100%;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .content {
+    margin: 10px 0px 0px 0px;
+    padding: 1rem;
+  }
+}
