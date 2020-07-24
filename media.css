@@ -1,20 +1,18 @@
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   #hero-video {
     width: auto;
     height: 100%;
-}
+  }
   .conteiner-1 {
     flex-direction: column;
-    
   }
   .conteiner-2 {
     flex-direction: column;
-   
   }
   .curabitur {
     height: 100%;
   }
-  
+
   .highlights {
     height: 100%;
   }
@@ -29,9 +27,8 @@
     margin-top: 133px;
     margin-left: 10%;
     margin-right: 10%;
-    
   }
-  .title-banner-2{
+  .title-banner-2 {
     width: 87%;
   }
   h1 {
@@ -58,14 +55,15 @@
     margin: 8px 0px 20px 0px;
     padding: 0;
   }
-  .footer-text{
+  .footer-text {
     margin: 0px;
     width: auto;
   }
   .footer-text-1 {
     margin: 0px;
+    width: auto;
   }
-  .footer-text-2{
+  .footer-text-2 {
     margin: 0px;
   }
   .footer-father {
@@ -73,5 +71,11 @@
   }
   .copyright {
     display: block;
+  }
+}
+@media (max-width: 1024px) {
+  #hero-video {
+    width: auto;
+    height: 100%;
   }
 }
